@@ -84,6 +84,7 @@ table, th, td {
 /* NAV BAR */
 .navbar {
     background-color: lightgoldenrodyellow;
+    color: black;
     list-style-type: none;
     overflow: hidden;
     margin: 0;

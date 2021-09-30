@@ -11,6 +11,11 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 h1 {
     background-color:azure;
     opacity: 1;
@@ -52,7 +57,7 @@ div {
 }
 
 a:link{
-    color:blue;
+    color:black;
     text-decoration: underline;
 }
 
@@ -81,7 +86,7 @@ table, th, td {
 }
 
 /* NAV BAR */
-.navbar {
+ul {
     background-color: lightgoldenrodyellow;
     color: black;
     list-style-type: none;
@@ -98,17 +103,15 @@ li {
     border-right: 1px solid #bbb;
 }
 
-.navbar a {
+li a {
     display: block;
     color: black;
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
-    position: fixed;
-    top: 0;
 }
 
-.navbar a:hover {
+li a:hover {
     background-color:goldenrod;
 }
 

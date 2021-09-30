@@ -145,7 +145,7 @@ centered-img {
 
 #widetwocorners1 {
     border-radius: 15px 60px;
-    padding: 20px;
+    padding: 40px;
     width: 1000px;
     height: 400px;
     background-color: white;
@@ -157,7 +157,7 @@ centered-img {
 
 #widetwocorners2 {
     border-radius: 60px 15px;
-    padding: 20px;
+    padding: 40px;
     width: 1000px;
     height: 400px;
     background-color: white;

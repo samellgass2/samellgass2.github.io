@@ -93,7 +93,7 @@ table, th, td {
     width: 100%;
 }
 
-.navbar li {
+li {
     float: left;
     border-right: 1px solid #bbb;
 }
@@ -112,9 +112,9 @@ table, th, td {
     background-color:goldenrod;
 }
 
-.navbar .active {
+/* .navbar .active {
     background-color:goldenrod;
-}
+} */
 
 /* END NAV BAR */
 
@@ -143,8 +143,10 @@ centered-img {
     padding: 20px;
     width: 900px;
     height: 250px;
-    background-color: azure;
+    background-color: rgb(205, 249, 249);
+    border-color: black;
     color: black;
+    margin: auto;
 }
 
 #widetwocorners2 {
@@ -152,8 +154,10 @@ centered-img {
     padding: 20px;
     width: 900px;
     height: 250px;
-    background-color: azure;
+    background-color: rgb(205, 249, 249);
+    border-color: black;
     color: black;
+    margin: auto;
 }
 
 #widefourcorners {
@@ -161,7 +165,8 @@ centered-img {
     padding: 20px;
     width: 700px;
     height: 250px;
-    background-color: azure;
+    background-color: rgb(205, 249, 249);
+    border-color: black;
     color: black;
 }
 

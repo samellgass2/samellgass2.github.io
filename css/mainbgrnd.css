@@ -74,6 +74,10 @@ ul.a {
     list-style-position: outside;
 }
 
+ul.a li {
+    font-size: 20px;
+}
+
 ol.a {
     list-style-type: lower-roman;
     list-style-position: outside;

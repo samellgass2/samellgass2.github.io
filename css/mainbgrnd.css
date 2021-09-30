@@ -86,7 +86,7 @@ table, th, td {
 }
 
 /* NAV BAR */
-ul {
+ul.nav {
     background-color: lightgoldenrodyellow;
     color: black;
     list-style-type: none;
@@ -98,12 +98,12 @@ ul {
     width: 100%;
 }
 
-li {
+ul.nav li {
     float: left;
     border-right: 1px solid #bbb;
 }
 
-li a {
+ul.nav li a {
     display: block;
     color: black;
     text-align: center;
@@ -111,7 +111,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+ul.nav li a:hover {
     background-color:goldenrod;
 }
 

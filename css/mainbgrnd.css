@@ -4,6 +4,11 @@
     text-align: left;
     height: 200px;
 }
+
+.header span {
+	align-self: flex-end;
+}
+
 body {
     background-color: white;
     opacity: 1;

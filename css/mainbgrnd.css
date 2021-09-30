@@ -2,6 +2,7 @@
     background-color:lightblue;
     opacity: 1;
     text-align: left;
+    height: 200px;
 }
 body {
     background-color: white;
@@ -51,10 +52,6 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
-    background-color:darkblue;
-    opacity: 1;
-}
 
 a:link{
     color:black;
@@ -144,10 +141,11 @@ centered-img {
 #widetwocorners1 {
     border-radius: 15px 60px;
     padding: 20px;
-    width: 900px;
-    height: 250px;
+    width: 1000px;
+    height: 400px;
     background-color: rgb(205, 249, 249);
-    border-color: black;
+    border: 4px solid black;
+    font-size: 16px;
     color: black;
     margin: auto;
 }
@@ -155,10 +153,11 @@ centered-img {
 #widetwocorners2 {
     border-radius: 60px 15px;
     padding: 20px;
-    width: 900px;
-    height: 250px;
+    width: 1000px;
+    height: 400px;
     background-color: rgb(205, 249, 249);
-    border-color: black;
+    border: 4px solid black;
+    font-size: 16px;
     color: black;
     margin: auto;
 }

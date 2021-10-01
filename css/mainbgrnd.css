@@ -77,11 +77,13 @@ p.abme {
 button {
     color: skyblue;
     padding: 10px 25px;
+    font-size: 20px;
     background: transparent;
     border: 1px solid #000;
     border-radius: 20px;
     outline: none;
     cursor: pointer;
+    margin: auto;
 }
 
 

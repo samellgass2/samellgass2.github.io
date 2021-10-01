@@ -1,9 +1,22 @@
-.header {
+/* .header {
     background-color:lightblue;
     opacity: 1;
     text-align: left;
     display: flex;
     height: 200px;
+} */
+
+.header-img {
+    width: 100%;
+    height: 56.2%;
+    background-image: url("images/milkyway.jpg");
+    background-size: cover;
+
+}
+
+h5 {
+    font-size: 80px;
+    margin: 10px 0 30px;
 }
 
 .header span {
@@ -61,6 +74,16 @@ p.abme {
     font-size: 20px;
 }
 
+button {
+    color: skyblue;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
 
 a:link{
     color:black;
@@ -97,7 +120,7 @@ table, th, td {
 
 /* NAV BAR */
 ul.nav {
-    background-color: lightgoldenrodyellow;
+    background: linear-gradient(lightgoldenrodyellow, rgb(255, 255, 97));
     color: black;
     list-style-type: none;
     overflow: hidden;
@@ -185,9 +208,71 @@ centered-img {
     color: black;
 }
 
-/* To fix the nav bar to top: 
-    position: fixed;
-    top: 0;
-    width: 100%; */
+/* ANIMATION */
+
+.moving img {
+    width: 50px;
+    animation: movingitem 9s linear infinite;
+}
+
+.moving {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: -70px;
+}
+
+@keyframes movingitem{
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-80vh);
+        opacity: 0;
+    }
+}
+
+.moving img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+}
+
+.moving img:nth-child(2){
+    animation-delay: 1s;
+    width: 30px;
+}
+
+.moving img:nth-child(3){
+    animation-delay: 4s;
+}
+
+.moving img:nth-child(4){
+    animation-delay: 5s;
+    width: 35px;
+}
+
+.moving img:nth-child(5){
+    animation-delay: 2s;
+    width: 20px;
+}
+
+.moving img:nth-child(5){
+    animation-delay: 3s;
+    width: 20px;
+}
+
+.moving img:nth-child(5){
+    animation-delay: 2s;
+    width: 20px;
+}
 
 /* previous bckgrnd color; rgb(205, 249, 249) */

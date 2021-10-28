@@ -119,12 +119,19 @@ table, th, td {
     text-align: left;
     padding: 15px;
 }
+/* TEXT APPEAR DISAPPEAR */
+div.fade {
+    margin: 50px;
+    padding: 50px;
+}
 
 /* NAV BAR */
 ul.nav {
     background: rgb(205, 205, 205);
+    z-index: 1000;
     color: black;
     list-style-type: none;
+    opacity: 0.9;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -182,10 +189,10 @@ centered-img {
     width: 1000px;
     height: 400px;
     background-color: white;
-    border: 2px solid black;
     font-size: 16px;
     color: black;
     margin: auto;
+    opacity: 0.9;
 }
 
 #widetwocorners2 {
@@ -194,10 +201,10 @@ centered-img {
     width: 1000px;
     height: 400px;
     background-color: white;
-    border: 2px solid black;
     font-size: 16px;
     color: black;
     margin: auto;
+    opacity: 0.9;
 }
 
 #widefourcorners {

@@ -70,7 +70,7 @@ p {
 }
 
 p.abme {
-    padding-right: 30%;
+    margin: auto;
     font-size: 20px;
 }
 

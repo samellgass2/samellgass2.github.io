@@ -36,6 +36,18 @@ div {
     margin-bottom: 20px;
 }
 
+div.hill {
+    z-index: -10;
+    position: absolute;
+    left: 50%;
+    top: 500px;
+    border-radius: 150px 150px 0 0;
+    transform: translate(-50%, -50%);
+    background-color:rgba(143, 223, 143, 0.914);
+    height: 100px;
+    width: 200px;
+} 
+
 h1 {
     background-color:white;
     opacity: 0.9;
@@ -73,6 +85,12 @@ p.abme {
     margin: auto;
     font-size: 20px;
     opacity: 0.9;
+}
+
+p.big {
+    font-size: 40px;
+    opacity: 1;
+    position: absolute;
 }
 
 button {
@@ -134,7 +152,20 @@ ul.nav {
     z-index: 1000;
     color: black;
     list-style-type: none;
-    opacity: 0.8;
+    opacity: 1;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul.background {
+    /* background: rgb(205, 205, 205); */
+    z-index: 100;
+    color: white;
+    list-style-type: none;
+    opacity: 1;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -146,6 +177,20 @@ ul.nav {
 ul.nav li {
     float: left;
     border-right: 1px solid rgb(63, 170, 186);
+}
+
+ul.background li {
+    float: left;
+    border-right:1px solid white;
+}
+
+ul.background li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+
 }
 
 ul.nav li a {
